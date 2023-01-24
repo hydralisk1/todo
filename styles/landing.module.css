@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loginContainer {
+  padding: 1rem;
+  max-width: 600px;
+  width: 100%;
+  border: 1px solid #222222;
+  border-radius: 12px;
+}
+
+@media (max-width: 600px) {
+  .loginContainer {
+    border: none;
+  }
+}
